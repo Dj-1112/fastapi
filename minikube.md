@@ -23,7 +23,7 @@
         minikube dashboard
         ```
 
-#### Push your to Docker Hub
+#### Push your Image to Docker Hub
 
 -   Tag `my-fast-api:1.0` image to `<docker-hub-username>/my-fast-api:1.0`
 
