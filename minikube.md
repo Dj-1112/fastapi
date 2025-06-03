@@ -97,6 +97,14 @@
     ```bash
     kubectl get pods -o wide
     ```
+  - Check logs from any one pod:
+    ```bash
+    kubectl logs deployment/fastapi
+    ```
+  - Check logs from all the pods:
+    ```bash
+    kubectl logs deployment/fastapi --all-pods=true
+    ```
 - **Manage your cluster**
   - Pause Kubernetes:
     ```bash
